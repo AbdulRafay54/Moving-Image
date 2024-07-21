@@ -1,0 +1,34 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db6666;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#movable {
+    margin-top: 220px;
+    width: 280px; 
+    border-radius: 10px;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+
+    #movable-image {
+        margin-top: 220px;
+        width: 200px; 
+        height: auto;
+    }
+    
+
+}
+
+
