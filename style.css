@@ -1,34 +1,31 @@
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #db6666;
+    overflow: hidden;
 }
 
-.container {
+#container {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
 #movable {
-    margin-top: 220px;
+    position: absolute;
     width: 280px; 
     border-radius: 10px;
     height: auto;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 500px) {
-
-    #movable-image {
-        margin-top: 220px;
-        width: 200px; 
-        height: auto;
+    #movable {
+        width: 200px;
     }
-    
-
 }
-
-
