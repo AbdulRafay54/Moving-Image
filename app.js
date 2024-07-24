@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
       img.style.top = `${top - step}px`;
     } else if (event.key == "ArrowDown") {
       img.style.top = `${top + step}px`;
+    } else if (event.key == "ArrowLeft") {
+      img.style.left = `${left - step}px`;
+    } else if (event.key == "ArrowRight") {
+      img.style.left = `${left + step}px`;
     }
   });
 });
